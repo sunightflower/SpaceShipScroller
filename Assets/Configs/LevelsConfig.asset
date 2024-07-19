@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115f2f3b0c2ad0646a1c6ecae31f4104, type: 3}
+  m_Name: LevelsConfig
+  m_EditorClassIdentifier: 
+  _levels:
+  - _id: 0
+    _levelLength: 20
+    _startSpeed: 1
+    _endSpeed: 2
+    _goldForPass: 10
+    _interactableSpawnData:
+    - _interactableType: 1
+      _interactableGrade: 0
+      _startCooldown: 3
+      _endCooldown: 1
+      _prewarmTime: 2
+    - _interactableType: 2
+      _interactableGrade: 0
+      _startCooldown: 4
+      _endCooldown: 2
+      _prewarmTime: 5
+  - _id: 1
+    _levelLength: 30
+    _startSpeed: 1.5
+    _endSpeed: 2.5
+    _goldForPass: 20
+    _interactableSpawnData:
+    - _interactableType: 1
+      _interactableGrade: 0
+      _startCooldown: 2
+      _endCooldown: 1
+      _prewarmTime: 3
+    - _interactableType: 2
+      _interactableGrade: 0
+      _startCooldown: 2
+      _endCooldown: 1
+      _prewarmTime: 5
+    - _interactableType: 3
+      _interactableGrade: 0
+      _startCooldown: 4
+      _endCooldown: 2
+      _prewarmTime: 5
+  - _id: 2
+    _levelLength: 45
+    _startSpeed: 2
+    _endSpeed: 3
+    _goldForPass: 40
+    _interactableSpawnData:
+    - _interactableType: 1
+      _interactableGrade: 0
+      _startCooldown: 1
+      _endCooldown: 0.75
+      _prewarmTime: 3
+    - _interactableType: 2
+      _interactableGrade: 0
+      _startCooldown: 1.8
+      _endCooldown: 0.9
+      _prewarmTime: 5
+    - _interactableType: 3
+      _interactableGrade: 0
+      _startCooldown: 20
+      _endCooldown: 20
+      _prewarmTime: 5
+    - _interactableType: 4
+      _interactableGrade: 0
+      _startCooldown: 10
+      _endCooldown: 10
+      _prewarmTime: 5
+  - _id: 3
+    _levelLength: 50
+    _startSpeed: 3
+    _endSpeed: 5
+    _goldForPass: 40
+    _interactableSpawnData:
+    - _interactableType: 1
+      _interactableGrade: 0
+      _startCooldown: 0.9
+      _endCooldown: 0.65
+      _prewarmTime: 3
+    - _interactableType: 2
+      _interactableGrade: 0
+      _startCooldown: 1.7
+      _endCooldown: 0.8
+      _prewarmTime: 5
+    - _interactableType: 3
+      _interactableGrade: 0
+      _startCooldown: 20
+      _endCooldown: 20
+      _prewarmTime: 10
+    - _interactableType: 4
+      _interactableGrade: 0
+      _startCooldown: 10
+      _endCooldown: 10
+      _prewarmTime: 10
+  - _id: 4
+    _levelLength: 60
+    _startSpeed: 4
+    _endSpeed: 5.5
+    _goldForPass: 45
+    _interactableSpawnData:
+    - _interactableType: 1
+      _interactableGrade: 0
+      _startCooldown: 1.1
+      _endCooldown: 1
+      _prewarmTime: 4
+    - _interactableType: 2
+      _interactableGrade: 0
+      _startCooldown: 2
+      _endCooldown: 0.5
+      _prewarmTime: 4
+    - _interactableType: 3
+      _interactableGrade: 0
+      _startCooldown: 20
+      _endCooldown: 20
+      _prewarmTime: 10
+    - _interactableType: 4
+      _interactableGrade: 0
+      _startCooldown: 10
+      _endCooldown: 6
+      _prewarmTime: 10
+  - _id: 5
+    _levelLength: 70
+    _startSpeed: 6
+    _endSpeed: 6
+    _goldForPass: 55
+    _interactableSpawnData:
+    - _interactableType: 1
+      _interactableGrade: 0
+      _startCooldown: 0.8
+      _endCooldown: 0.6
+      _prewarmTime: 0.54
+    - _interactableType: 2
+      _interactableGrade: 0
+      _startCooldown: 2
+      _endCooldown: 0.5
+      _prewarmTime: 2
+    - _interactableType: 3
+      _interactableGrade: 0
+      _startCooldown: 10
+      _endCooldown: 10
+      _prewarmTime: 15
+    - _interactableType: 4
+      _interactableGrade: 0
+      _startCooldown: 10
+      _endCooldown: 6
+      _prewarmTime: 15
+  - _id: 6
+    _levelLength: 70
+    _startSpeed: 6
+    _endSpeed: 6
+    _goldForPass: 65
+    _interactableSpawnData:
+    - _interactableType: 1
+      _interactableGrade: 0
+      _startCooldown: 0.8
+      _endCooldown: 0.8
+      _prewarmTime: 0.45
+    - _interactableType: 2
+      _interactableGrade: 0
+      _startCooldown: 1.5
+      _endCooldown: 0.5
+      _prewarmTime: 1.31
+    - _interactableType: 3
+      _interactableGrade: 0
+      _startCooldown: 7
+      _endCooldown: 7
+      _prewarmTime: 15
+    - _interactableType: 4
+      _interactableGrade: 0
+      _startCooldown: 10
+      _endCooldown: 6
+      _prewarmTime: 8
+  - _id: 7
+    _levelLength: 80
+    _startSpeed: 7
+    _endSpeed: 8
+    _goldForPass: 75
+    _interactableSpawnData:
+    - _interactableType: 1
+      _interactableGrade: 0
+      _startCooldown: 0.68
+      _endCooldown: 0.6
+      _prewarmTime: 0.42
+    - _interactableType: 2
+      _interactableGrade: 0
+      _startCooldown: 1.26
+      _endCooldown: 0.5
+      _prewarmTime: 1.1
+    - _interactableType: 3
+      _interactableGrade: 0
+      _startCooldown: 7
+      _endCooldown: 7
+      _prewarmTime: 9.4
+    - _interactableType: 4
+      _interactableGrade: 0
+      _startCooldown: 10
+      _endCooldown: 6
+      _prewarmTime: 8
+  - _id: 8
+    _levelLength: 100
+    _startSpeed: 9
+    _endSpeed: 9
+    _goldForPass: 100
+    _interactableSpawnData:
+    - _interactableType: 1
+      _interactableGrade: 0
+      _startCooldown: 0.5
+      _endCooldown: 0.5
+      _prewarmTime: 0.21
+    - _interactableType: 2
+      _interactableGrade: 0
+      _startCooldown: 0.4
+      _endCooldown: 0.4
+      _prewarmTime: 0.8
+    - _interactableType: 3
+      _interactableGrade: 0
+      _startCooldown: 9
+      _endCooldown: 9
+      _prewarmTime: 8
+    - _interactableType: 4
+      _interactableGrade: 0
+      _startCooldown: 5
+      _endCooldown: 5
+      _prewarmTime: 6
